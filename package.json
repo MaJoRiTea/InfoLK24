@@ -1,0 +1,21 @@
+{
+  "name": "infolk24",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000n\u0000f\u0000o\u0000L\u0000K\u00002\u00004\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-scripts": "^0.6.4",
+    "surge": "^0.23.1"
+  }, 
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain Infolk24.surge.sh"
+    }
+  }
+  
+}
