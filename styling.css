@@ -27,7 +27,7 @@
   }
 
   header {
-    background-color: blue;
+    background-color: #E0218A ;
     align-items: center;
     color: aliceblue;
     text-align: center;
@@ -36,9 +36,12 @@
     border:none;
     font-size: 20px;
   }
- 
+ body{
+  background-color: #0A0A0A  ;
+
+ }
   footer{
-    background-color: blue;
+    background-color: #E0218A ;
     color: aliceblue;
     align-items: center;
     text-align: center;
