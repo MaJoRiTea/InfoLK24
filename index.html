@@ -5,6 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="refresh" content="5; url='https://www.youtube.com/watch?v=xvFZjo5PgG0'" />
+		<script src="./script.js" type="text/javascript"></script>
 		<title>InfoLK24 - hosted via surge</title>
 	</head>
 	<body>
@@ -12,12 +13,52 @@
 			<h1>InfoLK24 - Der DönerLK</h1>
 		</header>
 		<main>
-			<section class="Seitenwechsler"><h2>Unser LK-Mantra</h2></section>
-			<section class="Seitenwechsler"><h2>LK-Historie (Kursbericht)</h2></section>
-			<section class="Seitenwechsler"><h2>Ingredienzenliste(Themenüberblick)</h2></section>
-			<section class="Seitenwechsler"><h2>Ziel15</h2></section>
-			<section class="Seitenwechsler"><h2>Der Weyphel</h2></section>
+			<div name="LK-Mantra">
+			
+				<button type="button" class="collapsible">Unser LK-Mantra</button>
+				<div id="LK-Mantra" class="content">
+
+					Vater unser im Computerraum,<br/>
+					geheiligt werde dein Code. 	<br/>
+					Dein Reich komme. <br/>
+					Dein Programm geschehe, <br/>
+					wie in Informatik so auf Erden.<br/>
+					Unser tägliches Java gib uns heute. Und vergib uns unsere If-Schlei..,<br/>
+					wie auch wir vergeben unsere Syntax-Fehler. <br/>
+					Und führe uns nicht zu Scratch,<br/>
+					sondern erlöse uns von dem Kunst LK. <br/>
+					Denn dein ist das Reich und die Rechenleistung und die Herrlichkeit in Integer.MAX_VALUE.<br/>
+					*return true;`
+				</div>
+
+				<br/>
+				<br/>
+
+				<button type="button" class="collapsible">todo</button>
+		
+				<div id="virus_basic_info" class="content">
+					
+				</div>
+		
+			</section>
+			<br/>
 		</main>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>
 	</body>
 	<footer>
 		<p>Erstellt von Marcus Rittler für den InfoLK24 des Bergstraßen-Gymnasiums Hemsbach</p>
