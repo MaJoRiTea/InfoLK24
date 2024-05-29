@@ -9,7 +9,8 @@
     border: none;
     text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 50px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -25,6 +26,17 @@
     background-color:#0A0A0A ;
     text-align: center;
     color:#E0218A ;
+    font-size: 20px;
+  }
+
+  .content-weyphelunser {
+    font-size:20px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:#0A0A0A ;
+    text-align: center;
+    color:#E0218A ;
   }
 
   header {
@@ -33,12 +45,21 @@
     color: #FFDAF2  ;
     text-align: center;
     padding: 20px;
-    width: 100%;
-    border:none;
+    width: 60%;
+    border: none;
+    border-radius: 50px;
+
     font-size: 20px;
+    position: relative;
+    top: 0;
+    left: 20%;
+    right: 0
+    
   }
  body{
   background-color: #0A0A0A  ;
+  margin-top: 10px;
+  margin-bottom: 10%;
 
  }
   footer{
@@ -54,6 +75,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    
   }
   html {
     position: relative;
@@ -64,4 +86,9 @@ button{
     background-color: #E0218A;
     color: aliceblue;
     border-radius: 5px;
+}
+
+marquee{
+    color: greenyellow;
+    
 }
